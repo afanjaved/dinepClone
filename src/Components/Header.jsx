@@ -54,7 +54,7 @@ function Header() {
                 </div>
 
                 {/* Mobile Menu */}
-                <div className='flex md:hidden gap-5'>
+                <div className='flex item-center md:hidden gap-5'>
                     {menu.map((item, index) => index < 3 && (
                         <HeaderItem key={index} name={''} Icon={item.icon} />
                     ))}
